@@ -1,0 +1,16 @@
+{
+  "name": "onye_ji_cash_",
+  "version": "1.0.0",
+  "description": "Truck and cargo management",
+  "main": "index.js",
+  "scripts": {
+    "build" : "npx tailwindcss -i ./input.css -o ./dist/output.css --build",
+    "watch" : "npx tailwindcss -i ./input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
