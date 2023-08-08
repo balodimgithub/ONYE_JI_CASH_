@@ -576,8 +576,16 @@ video {
   margin-bottom: 20px;
 }
 
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
 .mt-\[20px\] {
   margin-top: 20px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
 }
 
 .block {
@@ -604,16 +612,28 @@ video {
   height: 306px;
 }
 
+.h-\[335px\] {
+  height: 335px;
+}
+
 .h-\[400px\] {
   height: 400px;
 }
 
-.h-\[40px\] {
-  height: 40px;
-}
-
 .h-\[442px\] {
   height: 442px;
+}
+
+.h-\[50px\] {
+  height: 50px;
+}
+
+.h-\[389px\] {
+  height: 389px;
+}
+
+.h-\[6px\] {
+  height: 6px;
 }
 
 .w-\[100\%\] {
@@ -624,8 +644,12 @@ video {
   width: 213px;
 }
 
-.w-\[40px\] {
-  width: 40px;
+.w-\[50px\] {
+  width: 50px;
+}
+
+.w-\[6px\] {
+  width: 6px;
 }
 
 .flex-col {
@@ -652,12 +676,12 @@ video {
   gap: 10px;
 }
 
-.gap-\[136px\] {
-  gap: 136px;
-}
-
 .gap-\[15px\] {
   gap: 15px;
+}
+
+.gap-\[16px\] {
+  gap: 16px;
 }
 
 .gap-\[20px\] {
@@ -670,6 +694,14 @@ video {
 
 .gap-\[40px\] {
   gap: 40px;
+}
+
+.gap-\[32px\] {
+  gap: 32px;
+}
+
+.gap-\[64px\] {
+  gap: 64px;
 }
 
 .self-start {
@@ -692,6 +724,22 @@ video {
   border-radius: 9999px;
 }
 
+.rounded-\[40px\] {
+  border-radius: 40px;
+}
+
+.rounded-\[9990px\] {
+  border-radius: 9990px;
+}
+
+.rounded-\[9940px\] {
+  border-radius: 9940px;
+}
+
+.rounded-\[9840px\] {
+  border-radius: 9840px;
+}
+
 .border-\[1px\] {
   border-width: 1px;
 }
@@ -703,6 +751,10 @@ video {
 .border-\[\#1AAEC8\] {
   --tw-border-opacity: 1;
   border-color: rgb(26 174 200 / var(--tw-border-opacity));
+}
+
+.border-\[\#1E1E1ECC\] {
+  border-color: #1E1E1ECC;
 }
 
 .border-\[\#399457\] {
@@ -757,6 +809,11 @@ video {
   background-color: rgb(255 255 0 / var(--tw-bg-opacity));
 }
 
+.bg-blue-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+}
+
 .bg-blue-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
@@ -767,12 +824,28 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#D9D9D952\] {
+  background-color: #D9D9D952;
+}
+
 .p-\[15px\] {
   padding: 15px;
 }
 
 .p-\[8px\] {
   padding: 8px;
+}
+
+.p-\[4px\] {
+  padding: 4px;
+}
+
+.p-\[10px\] {
+  padding: 10px;
+}
+
+.p-\[12px\] {
+  padding: 12px;
 }
 
 .px-\[10px\] {
@@ -833,6 +906,10 @@ video {
 .py-\[8px\] {
   padding-top: 8px;
   padding-bottom: 8px;
+}
+
+.pl-\[10px\] {
+  padding-left: 10px;
 }
 
 .text-center {
@@ -915,6 +992,17 @@ video {
   opacity: 80%;
 }
 
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.background-img{
+  background-image: url('../img/seamless.png');
+  background-size: cover;
+}
+
 @media (min-width: 768px) {
   .md\:mb-\[20px\] {
     margin-bottom: 20px;
@@ -972,6 +1060,10 @@ video {
     height: 70%;
   }
 
+  .md\:h-\[176px\] {
+    height: 176px;
+  }
+
   .md\:w-1\/3 {
     width: 33.333333%;
   }
@@ -998,6 +1090,10 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
   }
 
   .md\:flex-wrap {
@@ -1034,6 +1130,14 @@ video {
 
   .md\:gap-\[30px\] {
     gap: 30px;
+  }
+
+  .md\:gap-\[39px\] {
+    gap: 39px;
+  }
+
+  .md\:gap-\[48px\] {
+    gap: 48px;
   }
 
   .md\:gap-y-\[20px\] {
@@ -1087,10 +1191,6 @@ video {
     text-align: left;
   }
 
-  .md\:text-center {
-    text-align: center;
-  }
-
   .md\:text-\[20px\] {
     font-size: 20px;
   }
@@ -1131,6 +1231,10 @@ video {
     line-height: 54px;
   }
 
+  .md\:leading-\[60px\] {
+    line-height: 60px;
+  }
+
   .md\:leading-\[68px\] {
     line-height: 68px;
   }
@@ -1143,6 +1247,10 @@ video {
 
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:h-\[389px\] {
+    height: 389px;
   }
 
   .lg\:h-\[505px\] {
@@ -1161,10 +1269,6 @@ video {
     height: 637px;
   }
 
-  .lg\:h-\[654px\] {
-    height: 654px;
-  }
-
   .lg\:h-\[688px\] {
     height: 688px;
   }
@@ -1181,8 +1285,20 @@ video {
     width: 30%;
   }
 
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:gap-\[10px\] {
     gap: 10px;
+  }
+
+  .lg\:gap-\[136px\] {
+    gap: 136px;
+  }
+
+  .lg\:gap-\[48px\] {
+    gap: 48px;
   }
 
   .lg\:gap-\[50px\] {
