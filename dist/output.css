@@ -680,6 +680,10 @@ video {
   flex-direction: column;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -1061,6 +1065,11 @@ video {
   color: rgb(212 61 38 / var(--tw-text-opacity));
 }
 
+.hover\:text-blue-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1069,6 +1078,10 @@ video {
 @media (min-width: 335px) {
   .sm\:w-auto {
     width: auto;
+  }
+
+  .sm\:self-start {
+    align-self: flex-start;
   }
 
   .sm\:self-center {
